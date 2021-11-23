@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.dateContainer{
+  display: flex;
+}
+.dateContainer button{
+  position:absolute;
+  top:20px;
+  right:10px;
+  background-color: #6bbe92;
+  width: 90px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.TitleContainer{
+  position:relative;
+  display: flex
+  justify-content: center;
+}
+
+header .appTitle{
+  text-align: center;
+  /* background-color: red; */
+}
+
+header .coffineRemain{
+  position:absolute;
+  right:0;
+  bottom:0;
+  font-size: 20px;
+  /* background-color: blue; */
+}
+
+.timeContainer {
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  text-align: center;
+}
+
+.remainInfoContainer{
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  position:relative;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 160px;
+  height: 65px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 16px;
+  margin-top:3px;
+  margin-bottom: 5px;
+}
+.note p {
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note button{
+  position:absolute;
+  width:20px;
+  height:20px;
+  top:-8px;
+  right:-8px;
+  background-color: lightgray;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 100%;
+}
+
+.coffeStoreContainer{
+  display:flex;
+}
+
+.coffeeSelection {
+  position:relative;
+  width: 150px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.limitCover{
+  position:absolute;
+  width: 150px;
+  height:210px;
+  margin: 30px auto 20px auto;
+  border-radius: 7px;
+  background-color: rgba(0,0,0,0.5)
+
+}
+
+.cupCounterTop{
+  position: absolute;
+  left:-10px;
+  top: -10px;
+  width:20px;
+  height:20px;
+  border-radius: 100%;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.coffeeSelection h2{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.coffeeSelection h3{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.coffeeSelection img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #555;
+}
+
+.cupCounter{
+  display: flex;
+  margin-top: 5px;
+  width: 150px;
+  /* background-color: red; */
+}
+
+.cupNumber{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  /* background-color: blue; */
+
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  /* outline: none; */
+}
+
+.coffeeSelection button {
+  background-color: #6bbe92;
+  width: 50px;
+  height: 28px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.cupCounter button{
+  background-color: #6bbe92;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.selectedCoffeeContainer{
+  /* background-color: red; */
+  height: 120px;
+  display:flex;
+}
+
+
+.DecisionButton{
+  display: flex;
+  justify-content: center;
+}
+
+.DecisionContainer p{
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: center;
+}
+
+.DecisionButton{
+  margin-top: 10px;
+}
+.DecisionButton button{
+  background-color: #6bbe92;
+  width: 90px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
